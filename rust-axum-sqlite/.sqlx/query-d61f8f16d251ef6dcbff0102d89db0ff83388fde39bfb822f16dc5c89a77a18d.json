@@ -1,0 +1,20 @@
+{
+  "db_name": "SQLite",
+  "query": "\n            INSERT INTO examples (\n                example\n            )\n            VALUES (\n                $1\n            )\n            RETURNING example as \"example: ExampleType\"\n            ",
+  "describe": {
+    "columns": [
+      {
+        "name": "example: ExampleType",
+        "ordinal": 0,
+        "type_info": "Text"
+      }
+    ],
+    "parameters": {
+      "Right": 1
+    },
+    "nullable": [
+      false
+    ]
+  },
+  "hash": "d61f8f16d251ef6dcbff0102d89db0ff83388fde39bfb822f16dc5c89a77a18d"
+}

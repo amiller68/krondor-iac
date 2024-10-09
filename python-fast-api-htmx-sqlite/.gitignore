@@ -1,0 +1,6 @@
+.env
+.env.dev
+.env.prod
+data/*
+**/out
+**/__pycache__
